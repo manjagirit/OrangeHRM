@@ -3,6 +3,7 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.orangehrm.factory.TestListener"/>
+    <listener class-name="com.orangehrm.factory.RetryListener"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>

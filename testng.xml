@@ -3,6 +3,7 @@
 <suite name="Suite">
 <listeners>
 <listener class-name="com.orangehrm.factory.TestListener"/>
+<listener class-name="com.orangehrm.factory.RetryListener"/>
 </listeners>
   <test name="Test">
     <classes>
