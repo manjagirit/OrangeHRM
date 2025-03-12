@@ -51,6 +51,7 @@ public class LoginPage {
 	}
 	
 	public boolean forgotYourPassword() {
+		CommonUtil.waitForVisibilityOfElement(forgotPasswordLink, driver,Integer.parseInt(Config.getProperty("timeout")));
 		return forgotPasswordLink.isDisplayed();
 	}
 	

@@ -31,8 +31,9 @@ public class LoginTest extends BaseClass {
 	}
 	
 	@Test
-	public void testForgotYourPassword() {
-		
+	public void verifyForgetYourPassword() {
+		boolean forgotPassword = loginpage.forgotYourPassword();
+		Assert.assertTrue(forgotPassword);
 		
 		
 	}
