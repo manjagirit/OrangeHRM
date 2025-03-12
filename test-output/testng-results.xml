@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-12T16:33:48 IST" name="Default suite" finished-at="2025-03-12T16:33:58 IST" duration-ms="9773">
+    <groups>
+    </groups>
+    <test started-at="2025-03-12T16:33:48 IST" name="Default test" finished-at="2025-03-12T16:33:58 IST" duration-ms="9773">
+      <class name="com.orangehrm.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.LoginTest@323b36e0]" started-at="2025-03-12T16:33:48 IST" name="setUp" finished-at="2025-03-12T16:33:54 IST" duration-ms="5526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.orangehrm.tests.LoginTest@323b36e0]" started-at="2025-03-12T16:33:54 IST" name="initPageObjects" finished-at="2025-03-12T16:33:54 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="testValidLogin()[pri:0, instance:com.orangehrm.tests.LoginTest@323b36e0]" started-at="2025-03-12T16:33:54 IST" name="testValidLogin" finished-at="2025-03-12T16:33:58 IST" duration-ms="3682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tests.LoginTest@323b36e0]" started-at="2025-03-12T16:33:58 IST" name="tearDown" finished-at="2025-03-12T16:33:58 IST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
