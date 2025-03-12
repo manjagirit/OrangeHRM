@@ -6,7 +6,6 @@
       <class name="com.orangehrm.tests.LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="initPageObjects"/>
           <include name="setUp"/>
           <include name="testValidLogin"/>
         </methods>

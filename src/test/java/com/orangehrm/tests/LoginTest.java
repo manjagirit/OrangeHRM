@@ -16,6 +16,7 @@ public class LoginTest extends BaseClass {
 		loginpage.enterPassword(Config.getProperty("password"));
 		loginpage.clickLogin();
 		String dashboard = homepage.verifyDashboard();
+		Assert.assertTrue(false);
 		Assert.assertEquals(dashboard, "Dashboard", "Dashboard is successfully displayed");
 
 	}
@@ -34,8 +35,6 @@ public class LoginTest extends BaseClass {
 	public void verifyForgetYourPassword() {
 		boolean forgotPassword = loginpage.forgotYourPassword();
 		Assert.assertTrue(forgotPassword);
-		
-		
-	}
+		}
 
 }
