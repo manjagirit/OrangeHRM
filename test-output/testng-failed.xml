@@ -9,8 +9,7 @@
     <classes>
       <class name="com.orangehrm.tests.LoginTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="testDashboardAccessibility"/>
           <include name="testValidLogin"/>
         </methods>
       </class> <!-- com.orangehrm.tests.LoginTest -->

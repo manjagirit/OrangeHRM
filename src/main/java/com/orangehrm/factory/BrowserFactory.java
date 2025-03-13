@@ -34,7 +34,7 @@ public class BrowserFactory {
 			break;
 
 		default:
-			throw new IllegalArgumentException("Invalid browser name in config file :"+browser);
+			throw new RuntimeException("Invalid browser name in config file :"+browser);
 		}
 		
 		return driver;

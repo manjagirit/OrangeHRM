@@ -12,9 +12,20 @@ public class CommonUtil {
 	public static void waitForVisibilityOfElement(WebElement element,WebDriver driver,int timeout) {
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(timeout));
 		wait.until(ExpectedConditions.visibilityOf(element));
+		}
+	
+	public static void clickOnElement(WebElement element) {
+		element.click();
+		}
+	
+	public static void elementtobeClickable(WebElement element,WebDriver driver,int timeout) {
+		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(timeout));
+		wait.until(ExpectedConditions.elementToBeClickable(element)).click();
 		
-		
-	}
+	}	
+	
+	
+	
 	
 	
 

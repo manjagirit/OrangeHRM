@@ -42,8 +42,9 @@ public class LoginPage {
 		loginBtn.click();
 	}
 	
-	public void loginWithValidCredential(String Username,String Password) {
+	public void loginValidData(String Username,String Password) {
 		
+		CommonUtil.waitForVisibilityOfElement(username, driver,Integer.parseInt(Config.getProperty("timeout")));
 		username.sendKeys(Username);
 		password.sendKeys(Password);
 		loginBtn.click();

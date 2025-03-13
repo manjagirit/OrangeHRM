@@ -1,0 +1,16 @@
+com\orangehrm\util\FilePaths.class
+com\orangehrm\factory\BrowserFactory.class
+com\orangehrm\util\Config.class
+com\orangehrm\util\IConstants.class
+com\orangehrm\factory\TestListener.class
+com\orangehrm\factory\RetryListener.class
+com\orangehrm\pageobjects\LoginPage.class
+com\orangehrm\factory\ExtentManager.class
+com\orangehrm\util\CommonUtil.class
+com\orangehrm\pageobjects\HomePage.class
+com\orangehrm\factory\DriverFactory.class
+com\orangehrm\factory\RetryAnalyzer.class
+com\orangehrm\testbase\BaseClass.class
+com\orangehrm\pageobjects\AdminPage.class
+com\orangehrm\util\JavaUtil.class
+com\orangehrm\util\ExcelUtil.class

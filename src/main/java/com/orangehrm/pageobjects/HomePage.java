@@ -19,9 +19,32 @@ public class HomePage {
 	@FindBy(xpath="//span/child::h6[contains(.,\"Dashboard\")]")
 	WebElement Dashboard;
 	
-	public String verifyDashboard() {
+	@FindBy(xpath="//a[text()='Logout']")
+	WebElement Logout;
+	
+	@FindBy(xpath="//p[contains(.,'Manjunath T')]")
+	WebElement profileDropdown;
+	
+	@FindBy(xpath="//span[normalize-space()='Admin']")
+	WebElement Admin;
+	
+	public String dashboard() {
 		CommonUtil.waitForVisibilityOfElement(Dashboard, driver,Integer.parseInt(Config.getProperty("timeout")));
 		return Dashboard.getText();
+	}
+	
+	public void profiledropdown() {
+		CommonUtil.waitForVisibilityOfElement(profileDropdown, driver,Integer.parseInt(Config.getProperty("timeout")));
+		CommonUtil.clickOnElement(profileDropdown);
+		}
+	
+	public void clickLogout() {
+		CommonUtil.clickOnElement(Logout);
+	}
+	
+	public void clickAdmin() {
+		CommonUtil.waitForVisibilityOfElement(Admin, driver,Integer.parseInt(Config.getProperty("timeout")));
+	CommonUtil.clickOnElement(Admin);	
 	}
 	
 
